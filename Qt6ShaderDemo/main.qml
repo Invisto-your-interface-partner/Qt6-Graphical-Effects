@@ -17,7 +17,7 @@ Window {
 
         ShaderEffect {
             property var src: raveel
-            property int radius: 16
+            property int radius: 12
             property var pixelStep: Qt.vector2d(1/src.width, 1/src.height)
             width: 444
             height: 600
